@@ -1,0 +1,45 @@
+.enquery-link-box {
+   position: fixed;
+   top: 30%;
+   right:0;
+   /* transform: translateY(-10%); */
+   z-index: 1;
+ }
+
+ .enquery-link-box a {
+   position: fixed;
+   right:-54px;
+   background-color: #27ae60; 
+   color: #fff;
+   padding: 10px 20px; 
+   border: none; 
+   border-radius: 5px; 
+   cursor: pointer; 
+   text-decoration: none; 
+   display: inline-block; 
+   /* vertical-align:0%;  */
+   transform: rotate(90deg);
+ } 
+ 
+ .enquery-link-box.show-form a {
+   display: none; 
+ }
+ .close-btn{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #27ae60;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+ }
+ .submit{
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #27ae60;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+ }
